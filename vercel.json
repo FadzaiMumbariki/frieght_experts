@@ -1,4 +1,36 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/careers", "destination": "/contact", "permanent": false },
+    { "source": "/community", "destination": "/about", "permanent": false },
+    { "source": "/linkedin", "destination": "/contact", "permanent": false },
+    { "source": "/merchandises", "destination": "/contact", "permanent": false },
+    { "source": "/cart", "destination": "/contact", "permanent": false },
+    { "source": "/checkout", "destination": "/contact", "permanent": false },
+    { "source": "/paypal-checkout", "destination": "/contact", "permanent": false },
+    { "source": "/order-confirmation", "destination": "/contact", "permanent": false },
+    { "source": "/product/:slug*", "destination": "/contact", "permanent": false },
+    { "source": "/terms-conditions", "destination": "/contact", "permanent": false },
+    { "source": "/privacy-policy", "destination": "/contact", "permanent": false },
+    { "source": "/payment-policy", "destination": "/contact", "permanent": false },
+    { "source": "/delivery-shipping-policy", "destination": "/contact", "permanent": false },
+    { "source": "/refund-returns-policy", "destination": "/contact", "permanent": false },
+    { "source": "/qhse", "destination": "/about", "permanent": false },
+    { "source": "/articles/:slug*", "destination": "/insights", "permanent": false },
+    { "source": "/ai-news/:slug*", "destination": "/insights", "permanent": false },
+    { "source": "/insights/insights-united-carriers-christopher-lebon-2026-local-business-awards-finalists", "destination": "/insights", "permanent": false },
+    { "source": "/insights/how-an-australian-freight-forwarders-website-unexpectedly-went-viral", "destination": "/insights", "permanent": false },
+    { "source": "/insights/phoenix-and-united-carriers-continue-partnership-into-nbl27", "destination": "/insights", "permanent": false },
+    { "source": "/insights/united-carriers-achieves-australian-trusted-trader-accreditation", "destination": "/insights", "permanent": false },
+    { "source": "/insights/united-carriers-apac-recognised-in-afr-fast-starters", "destination": "/insights", "permanent": false },
+    { "source": "/insights/united-carriers-wins-fwa-of-the-day", "destination": "/insights", "permanent": false },
+    { "source": "/insights/uc-courtside-is-here", "destination": "/insights", "permanent": false },
+    { "source": "/insights/corporate-visions-logistics-warehouse-and-supply-chain-awards", "destination": "/insights", "permanent": false },
+    { "source": "/insights/confidential-national-infrastructure-manufacturer", "destination": "/insights", "permanent": false },
+    { "source": "/insights/grid-scale-battery-project-logistics-delivery-for-renewable-energy-infrastructure", "destination": "/insights", "permanent": false },
+    { "source": "/insights/reduced-import-delays-storage-costs-across-700-containers", "destination": "/insights", "permanent": false },
+    { "source": "/insights/time-critical-oversized-sewer-tank-delivery-to-residential-estate-development", "destination": "/insights", "permanent": false },
+    { "source": "/insights/cost-optimised-and-speed-to-market-import-program-for-new-truck-launch-in-australia", "destination": "/insights", "permanent": false }
+  ]
 }
