@@ -15,6 +15,22 @@ Then visit:
 
 ---
 
+## 🗺️ Pages & Routing
+
+The homepage is rendered by React. Every other route (`/about`, `/services`, `/insights/...`,
+`/product/...`, legal pages, etc.) is a pre-rendered HTML document in `public/` that loads the
+shared `/main.js` engine and its page chunk.
+
+`vercel.json` enables `cleanUrls`, so `public/about.html` is served at `/about` and
+`public/insights/<slug>.html` at `/insights/<slug>`. `vite.config.js` adds the same rewrite to
+`vite` and `vite preview` so local URLs match production. `public/404.html` is served for
+unmatched routes.
+
+To add or refresh a page, drop its `.html` file in `public/` under the matching path; no route
+table needs updating.
+
+---
+
 ## 📁 Architecture & File Layout
 
 ```text
