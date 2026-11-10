@@ -7,3 +7,5 @@ dist-ssr/
 
 .diagnostics/
 .pages/
+
+.rebrand/
